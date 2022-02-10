@@ -41,7 +41,7 @@
   font-size: 2rem;
   color: black;
   align-items: center;
-  background-color: yellow;
+  background-image: radial-gradient(white 100px, yellow 40%,black);
  
 }
 .contenedor .contenido {
@@ -102,6 +102,10 @@
   border-width: 4px;
 }
 
+#miImagen:hover{
+    
+  transform: scale(1.2, 1.2); 
+}
 
 .nav{
   display: flex;
