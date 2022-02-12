@@ -346,3 +346,32 @@ ul, ol {
     background-color: black;
   }
 }
+.tarjProd{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: gray;
+  
+}
+.productos{
+  margin: 10px;
+  padding: 10px;  
+  
+}
+.tarjNoti{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: yellow;
+}
+.cuerpoNoti{
+  background-color: grey;
+}
+
+.formuIngreso{
+  border: black;
+  border-style: solid;
+  margin: 10px;
+  padding: 10px;
+  background-color: gray;
+}
