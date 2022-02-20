@@ -375,3 +375,73 @@ ul, ol {
   padding: 10px;
   background-color: gray;
 }
+
+.logo {
+  animation-name: mover;
+  animation-duration: 1s;
+  animation-iteration-count: 3;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-out;
+}
+
+@keyframes mover{
+  0%{
+    transform: translateX(0);
+  }
+  
+  20%{
+    size-adjust: 5px;
+
+  }
+
+  40%{
+    size: 5px;
+  
+  }
+
+ 
+  60%{
+    size: 5px;
+
+  }
+ 
+  80%{
+    size: 5px;
+
+  }
+
+  100%{
+    transform: translateX(100%);
+
+  }
+
+}
+
+.boton{
+  color: black;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+}
+
+.boton:hover{
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  color: yellow;
+  font-size: 1.3rem;
+  background-color: grey;
+}
+
+.buscar{
+  
+  font-family: 'Bangers';
+  font-size: 1.5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+ 
+}
+
