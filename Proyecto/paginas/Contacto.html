@@ -11,7 +11,7 @@
   <body>
     <div class="contenedor">
       <header class="encabezado">
-        <a href="../index.html"><img src="../img/logo.png" alt="logo sitio"  id="miImagen"></a>
+        <a class="logo" href="../index.html"><img src="../img/logo.png" alt="logo sitio"  id="miImagen"></a>
         <h1 class="h1">GAMERZONE</h1>
         <h1></h1>
         
@@ -20,6 +20,7 @@
         </div>
       </header>
       <main class="contenido">
+        <h1>CONTACTO</h1>
         <div class="container py-4 formuIngreso">
 
             
@@ -69,11 +70,30 @@
 			
     </aside>
     <div class="add-1">
-      <a href="Ingresar.html"><img src="../img/usuario.png"></a>
-      <a href="Carrito.html"><img src="../img/carrito.png"></a>
+
+      <!--<a href="Ingresar.html"><img src="../img/usuario.png"></a>
+      <a href="Carrito.html"><img src="../img/carrito.png"></a>-->
+      <a class="btn btn-primary boton" href="Ingresar.html" role="button">Ingresar</a>
+      <a class="btn btn-primary boton" href="Carrito.html" role="button"><img src="../img/carrito.png"></a>
     </div>
     <div class="add-2">
-            <input id="inputHeader" type="search" placeholder="Buscar...">
+      <nav class="navbar navbar-light nav">
+        <form class="form-inline buscar">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0 boton" type="submit">Buscar</button>
+        </form>
+        <ul>
+          <li><a href="Productos.html">PRODUCTOS</a>
+            <ul>
+              <li><a href="">Motherboards</a></li>
+              <li><a href="">Memorias</a></li>
+              <li><a href="">GPU gráficas</a></li>
+              <li><a href="">Gabinetes</a></li>
+              <li><a href="">Otros</a></li>
+            </ul>
+        </ul>
+      </nav>
+            <!--<input id="inputHeader" type="search" placeholder="Buscar...">
             <nav class="nav">
               <ul class="nav">
                 <li><a href="Productos.html">PRODUCTOS</a>
@@ -85,7 +105,8 @@
                     <li><a href="">Otros</a></li>
                   </ul>
               </ul>
-            </nav>
+            </nav>-->
+
     </div>
     
     
@@ -95,7 +116,7 @@
         <a href="http://www.facebook.com" target="_blank"><img src="../img/facebook.png"></a>
         <a href="http://www.instagram.com" target="_blank"><img src="../img/Instagram.png"></a>
         <a href="http://www.twitter.com" target="_blank"><img src="../img/twitter.png"></a>
-        <a class="btn btn-primary" href="../paginas/Contacto.html" role="button">Contacto</a>
+        <a class="btn btn-primary boton" href="../paginas/Contacto.html" role="button">Contacto</a>
        
     </footer>
   
