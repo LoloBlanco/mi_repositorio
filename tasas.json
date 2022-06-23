@@ -1,0 +1,11 @@
+{
+    "tasas": [{
+            "moneda": "DÓLARES",
+            "interes": "5%"
+        },
+        {
+            "moneda": "PESOS",
+            "interes": "30%"
+        }
+    ]
+}
